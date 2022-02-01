@@ -1,6 +1,6 @@
-const sum = require('./index.js');
+const sum = require('./sum.js');
 
 test('adds 1 + 2 to equal 3', async () => {
   const result = await sum(1, 2);
-  expect().toBe(3);
+  expect(result).toEqual(3);
 });

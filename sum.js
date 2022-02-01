@@ -1,4 +1,4 @@
-async function foo() {
-  return 42;
+async function sum(a, b) {
+  return a + b;
 }
-module.exports = foo;
+module.exports = sum;
